@@ -1,0 +1,15 @@
+.customDefaultInput {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 50px;
+    outline: none;
+    padding: 0 0 0 10px;
+}
+
+.customDefaultInput:focus {
+    border: 2px solid #7DB1F7;
+}
+
+.urlInput {
+    width: 70%;
+    border-radius: 8px;
+}

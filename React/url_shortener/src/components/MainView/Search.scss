@@ -1,0 +1,23 @@
+.Search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    margin-bottom: 5px;
+
+    .shorten-wapper {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .shorten {
+            color: #0236b9;
+        }
+    }
+
+}
+
+.Search+.Search {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
